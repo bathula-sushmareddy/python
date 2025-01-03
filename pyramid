@@ -1,0 +1,13 @@
+c=25
+for i in range(c):
+    for j in range(c-i-1):
+        print(" ",end="")
+    for k in range(i*2+1):
+        print("*",end="")
+    print()
+for i in range(c-1,-1,-1):
+    for j in range(c-i-1):
+        print(" ",end="")
+    for k in range(i*2+1):
+        print("*",end="")
+    print()
