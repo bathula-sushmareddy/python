@@ -1,0 +1,10 @@
+r=20
+c=5
+c1=r-1
+for i in range(c1+1):
+    tem=c1-i
+    for j in range(tem):
+        print(" ",end=" ")
+    for k in range(c):
+        print("*",end=' ')
+    print()
