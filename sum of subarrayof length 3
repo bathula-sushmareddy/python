@@ -1,0 +1,14 @@
+li=[1,2,3,4,5,6]
+n=len(li)
+ans=0
+for i in range(n):
+    for j in range(i,n):
+       a=[]
+       sum=0
+       for k in range(i,j+1):
+           a.append(li[k])
+           sum+=li[k]
+           if len(a)==3:
+               ans=max(ans,sum)
+print(ans)
+        
